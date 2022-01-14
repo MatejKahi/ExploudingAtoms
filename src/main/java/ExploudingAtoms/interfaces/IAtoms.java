@@ -4,7 +4,7 @@ public interface IAtoms {
 
     void makeMove(int x, int y);
 
-    boolean[][] getGrid();
+    GameField[][] getGrid();
 
     int getMoveCount();
 
